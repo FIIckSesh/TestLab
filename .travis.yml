@@ -7,6 +7,7 @@ before_install:
 addons:
   sonarcloud:
     organization: "fiicksesh-github"
+    projectKey: "FIIckSesh_TestLab"
     token:
       secure: $SONAR_TOKEN
 
